@@ -34,12 +34,12 @@
                         <!-- Form -->
                         <form class="row g-1 p-0 p-4" method="post" action="{{route('frontend.auth.login')}}">
                             @csrf
-                            <div class="col-12 text-center mb-5">
+                         <!--   <div class="col-12 text-center mb-5">
                                 <h1>Sign in</h1>
                                 <span>Free access to our dashboard.</span>
                                 <span class="d-flex justify-content-center text-secondary">Email : admin@admin.com</span>
                                 <span class="d-flex justify-content-center text-secondary">Password : secret</span>
-                            </div>
+                            </div> -->
                             <div class="col-12 text-center mb-4">
                                 <a class="btn btn-lg btn-outline-secondary btn-block" href="#">
                                     <span class="d-flex justify-content-center align-items-center">
